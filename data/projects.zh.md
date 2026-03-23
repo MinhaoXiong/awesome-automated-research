@@ -4,7 +4,7 @@
 
 [![English README](https://img.shields.io/badge/English-README-111827?style=for-the-badge)](../README.md)
 [![GitHub Stars](https://img.shields.io/github/stars/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github&color=gold)](https://github.com/MinhaoXiong/awesome-automated-research/stargazers)
-[![Projects](https://img.shields.io/badge/Projects-39-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Projects](https://img.shields.io/badge/Projects-40-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
 [![Snapshot](https://img.shields.io/badge/Snapshot-2026--03--22-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
 
 **把自动科研项目按使用方式、流程覆盖和生态位置重新排一遍，方便中文读者快速选型。**
@@ -65,6 +65,7 @@
 | [polyuiislab/infiAgent](https://github.com/polyuiislab/infiAgent) | 1140 | 基础设施 | Workspace / Web UI | Ops | 通用 | Tool | Independent | 重点在可恢复、长时运行、隔离和多天级 agent 稳定性 |
 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 15600 | 技能包 | IDE Skill | L/E/A/W/V | 多学科科研 | Tool | Independent | 影响力极大的科研技能底座，很多垂直 agent 都能直接复用 |
 | [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 1239 | 端到端系统 | CLI / MCP | I/L/H/E/A/W/R | 通用 | Full | Independent | 把“自进化 scientist”路线单独拉出来的一支 |
+| [InternScience/InternAgent](https://github.com/InternScience/InternAgent) | 1199 | 端到端系统 | CLI / Web UI | L/H/E/A/Ops | 多学科科研 | Full | Independent | 长时程自主科研框架，把 deep research、验证执行和演化记忆串成统一闭环 |
 | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | 1539 | 实验循环 | IDE Skill | H/E/A | 通用 | Full | Autoresearch | 想在 Claude Code 里快速复现 Karpathy 范式时非常直接 |
 | [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | 1138 | 基础设施 | Python / MCP | L/E/A | 多学科科研 | Tool | Independent | 更像 AI scientist 的工具宇宙和中台，而不是单条 pipeline |
 | [Sibyl-Research-Team/AutoResearch-SibylSystem](https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem) | 171 | 端到端系统 | CLI | I/L/H/E/A/W/R | 通用 | Full | Independent | star 不高，但“零人工 idea 到 paper”味道非常浓 |
@@ -106,6 +107,7 @@
 | [Analemma/FARS](https://analemma.ai/) | — | Web UI | I/L/H/E/A/W | 公开部署和规模化运行展示都很强，说明它不是概念稿 |
 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | 2303 | CLI | I/H/E/A/W/R | 下一代 AI Scientist 升级方向最值得看的仓库 |
 | [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | 1239 | CLI / MCP | I/L/H/E/A/W/R | self-evolving scientist 路线的代表 |
+| [InternScience/InternAgent](https://github.com/InternScience/InternAgent) | 1199 | CLI / Web UI | L/H/E/A/Ops | 长时程 scientist 框架，覆盖 deep research、可执行验证和跨轮记忆演化 |
 | [Sibyl-Research-Team/AutoResearch-SibylSystem](https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem) | 171 | CLI | I/L/H/E/A/W/R | star 小，但很贴“零人工科研闭环” |
 | [jimmc414/Kosmos](https://github.com/jimmc414/Kosmos) | 472 | CLI | H/E/A/W | 偏严肃实现派，不只是概念包装 |
 | [eimenhmdt/autoresearcher](https://github.com/eimenhmdt/autoresearcher) | 419 | CLI | L/H/E/A/W | 仍偏早期，但方向完全对题 |
@@ -172,7 +174,7 @@
 <a id="selection-tips"></a>
 ## 选型建议
 
-- 如果你只想先看“最像 AI Scientist”的仓库：先看 `AI-Scientist`、`AutoResearchClaw`、`AI-Scientist-v2`
+- 如果你只想先看“最像 AI Scientist”的仓库：先看 `AI-Scientist`、`AutoResearchClaw`、`InternAgent`、`AI-Scientist-v2`
 - 如果你最想搭自己的自动实验循环：先看 `autoresearch`、`pi-autoresearch`、`Auto-claude-code-research-in-sleep`
 - 如果你想补能力底座：先看 `claude-scientific-skills`、`ToolUniverse`、`paper-search-mcp`
 - 如果你关心医学 / 生物落地：先看 `MedgeClaw`、`LabClaw`、`BioClaw`、`OpenClaw-Medical-Skills`
