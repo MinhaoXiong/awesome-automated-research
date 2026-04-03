@@ -5,13 +5,13 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![GitHub Stars](https://img.shields.io/github/stars/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github&color=gold)](https://github.com/MinhaoXiong/awesome-automated-research/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github)](https://github.com/MinhaoXiong/awesome-automated-research/issues)
-[![Projects](https://img.shields.io/badge/Projects-41-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
-[![Snapshot](https://img.shields.io/badge/Snapshot-2026--03--22-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Projects](https://img.shields.io/badge/Projects-42-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Snapshot](https://img.shields.io/badge/Snapshot-2026--04--03-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
 **A curated list of autonomous research systems and tools.**
 
-*41 projects · 8 categories · End-to-end AI scientists · Experiment loops · Research co-pilots · Skill packs · Paper tools · Benchmarks*
+*42 projects · 8 categories · End-to-end AI scientists · Experiment loops · Research co-pilots · Skill packs · Paper tools · Benchmarks*
 
 [English](#) | [中文](./README.zh.md)
 
@@ -30,7 +30,7 @@ AI can now carry out research autonomously — from generating ideas and running
 | You write papers from scratch | AI generates camera-ready LaTeX drafts with figures |
 | You review your own blind spots | AI self-reviews, cross-checks, and iterates |
 
-> **41 projects** tracked as of 2026-03-22.
+> **42 projects** tracked as of 2026-04-03.
 
 ---
 
@@ -98,7 +98,7 @@ AI can now carry out research autonomously — from generating ideas and running
 | --- | ---: | --- |
 | End-to-End AI Scientists | 9 | AI-Scientist, AutoResearchClaw, InternAgent, NeuriCo |
 | Experiment Optimization Loops | 5 | autoresearch, pi-autoresearch, codex-autoresearch |
-| Research Co-pilots & Interactive Agents | 3 | EvoScientist, Amadeus, ScienceClaw |
+| Research Co-pilots & Interactive Agents | 4 | EvoScientist, MagiClaw, ScienceClaw |
 | Research Workspaces | 3 | dr-claw, Research-Claw, DrClaw |
 | Skill & Workflow Packs | 8 | claude-scientific-skills, AI-Research-SKILLs, ARIS, uditgoenka/autoresearch |
 | Literature Search, Citation & Paper Tools | 5 | paper-search-mcp, PaperBanana, CitationClaw |
@@ -152,6 +152,7 @@ Capable research agents that work alongside humans rather than running fully una
 | Project | Stars | Description | Interface | LLM | Update Recency |
 | --- | ---: | --- | --- | --- | --- |
 | [EvoScientist](https://github.com/EvoScientist/EvoScientist) | 1.4K | Interactive research assistant you chat with via terminal, Telegram, Slack, or WeChat | ![CLI][i-cli] ![ChatOps][i-chatops] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] ![Ollama][ol] | last 1 week |
+| [MagiClaw](https://github.com/sjtu-sai-agents/MagiClaw) | 81 | Feishu/Lark command center that orchestrates specialized scientific agents and can bootstrap new agents on EvoMaster | ![ChatOps][i-chatops] | ![Any][any] | last 1 week |
 | [Amadeus](https://github.com/CurryTang/Amadeus) | 49 | Personal research assistant that reads, summarizes, and organizes papers with multi-pass AI analysis and ARIS workflows | ![Web][i-web] ![MCP][i-mcp] | ![Claude][cl] ![Gemini][gem] ![Codex][cdx] | last 1 week |
 | [ScienceClaw](https://github.com/beita6969/ScienceClaw) | 301 | Long-running research coworker that generates new skills at runtime and retains context across sessions | ![Skill][i-skill] ![OC][i-oc] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] | last 1 month |
 
