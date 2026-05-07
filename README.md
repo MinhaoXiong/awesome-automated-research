@@ -96,7 +96,7 @@ AI can now carry out research autonomously — from generating ideas and running
 
 | Category | Count | Representative Repos |
 | --- | ---: | --- |
-| End-to-End AI Scientists | 9 | AI-Scientist, AutoResearchClaw, InternAgent, NeuriCo |
+| End-to-End AI Scientists | 10 | AI-Scientist, AutoResearchClaw, InternAgent, OmegaWiki, NeuriCo |
 | Experiment Optimization Loops | 5 | autoresearch, pi-autoresearch, codex-autoresearch |
 | Research Co-pilots & Interactive Agents | 4 | EvoScientist, MagiClaw, ScienceClaw |
 | Research Workspaces | 3 | dr-claw, Research-Claw, DrClaw |
@@ -123,6 +123,7 @@ Fully autonomous pipelines that carry the research loop from idea or literature 
 | [AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | 7.5K | Give it a research idea, get back a complete paper with figures and peer review | ![CLI][i-cli] ![ChatOps][i-chatops] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] ![DeepSeek][ds] | last 1 week |
 | [AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | 2.3K | Next-gen AI Scientist that explores research directions via tree search without needing templates | ![CLI][i-cli] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] | last 1 year |
 | [InternAgent](https://github.com/InternScience/InternAgent) | 1.2K | Unified long-horizon scientist framework that links deep research, executable verification, and memory-driven evolution across algorithm and empirical discovery | ![CLI][i-cli] ![Web][i-web] | ![GPT][gpt] ![DeepSeek][ds] ![InternS1][is1] | last 1 week |
+| [OmegaWiki](https://github.com/skyllwt/OmegaWiki) | 542 | Wiki-centric full-lifecycle research platform: 20+ Claude Code skills from literature ingest and ideation through experiment design/run/eval to paper writing, with structured knowledge wiki and interactive graph | ![Skill][i-skill] ![Web][i-web] | ![Claude][cl] ![Any][any] | last 1 week |
 | [SibylSystem](https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem) | 185 | Give it a topic, it runs 19 stages to produce a conference-style paper and self-improves across runs | ![CLI][i-cli] ![Skill][i-skill] ![Web][i-web] | ![Claude][cl] ![GPT][gpt] | last 1 week |
 | [NanoResearch](https://github.com/OpenRaiser/NanoResearch) | 160 | 9-stage pipeline that runs real GPU/SLURM experiments, analyzes results, and writes LaTeX papers with grounded evidence | ![CLI][i-cli] ![Skill][i-skill] ![ChatOps][i-chatops] | ![Claude][cl] ![GPT][gpt] ![DeepSeek][ds] ![Gemini][gem] | last 1 week |
 | [NeuriCo](https://github.com/ChicagoHAI/NeuriCo) | 40 | YAML-in autonomous research framework that reviews literature, runs experiments, writes LaTeX papers, and auto-pushes complete results to GitHub repos | ![CLI][i-cli] ![Skill][i-skill] | ![Claude][cl] ![Codex][cdx] ![Gemini][gem] | last 1 week |
