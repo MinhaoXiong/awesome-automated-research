@@ -128,6 +128,7 @@ Fully autonomous pipelines that carry the research loop from idea or literature 
 | [NeuriCo](https://github.com/ChicagoHAI/NeuriCo) | 40 | YAML-in autonomous research framework that reviews literature, runs experiments, writes LaTeX papers, and auto-pushes complete results to GitHub repos | ![CLI][i-cli] ![Skill][i-skill] | ![Claude][cl] ![Codex][cdx] ![Gemini][gem] | last 1 week |
 | [FARS](https://analemma.ai/) | — | Public Analemma deployment of a multi-agent system that runs ideation, planning, experiments, and short-paper writing at scale | ![Web][i-web] | ![Any][any] | last 1 month |
 | [Kosmos](https://github.com/jimmc414/Kosmos) | 471 | Autonomous discovery engine that tests hypotheses in sandboxed containers and tracks findings in a knowledge graph | ![CLI][i-cli] | ![Claude][cl] ![GPT][gpt] ![LiteLLM][ll] | last 3 month |
+| [Agon](https://github.com/AutoResearch-Factory/Agon) | 19 | Built around Prompt Economy (never write a prompt for one task, only for a reusable loop), plus five supporting design rules; scientist/coder/auditor roles run across robotics, computational biology, and other disciplines with 18 roles total | ![Skill][i-skill] | ![Claude][cl] ![DeepSeek][ds] | last 1 week |
 
 ---
 
@@ -225,6 +226,7 @@ Deep single-domain agents that win by specializing in one scientific vertical ra
 | --- | ---: | --- | --- | --- | --- |
 | [BioClaw](https://github.com/Runchuan-BU/BioClaw) | 243 | Bioinformatics chatbot with BLAST, SAMtools, FastQC and other bio tools in isolated containers | ![ChatOps][i-chatops] ![Web][i-web] | ![Claude][cl] ![OpenAI-compatible][oaic] | last 1 week |
 | [MedgeClaw](https://github.com/xjtulyc/MedgeClaw) | 925 | Biomedical research assistant with 140 specialized skills and multi-platform messaging | ![ChatOps][i-chatops] ![Web][i-web] | ![Claude][cl] ![Ollama][ol] ![GLM][glm] ![DeepSeek][ds] | last 1 month |
+| [AutoNumerics](https://github.com/Daviddjddu/Autonumerics) | 2 | Turns a plain-language PDE description into a working, non-neural numerical solver that picks the method (Fourier, Chebyshev, etc.) automatically based on the problem | ![CLI][i-cli] | ![GPT][gpt] | last 4 month |
 
 ---
 
@@ -236,6 +238,7 @@ Frameworks and services that measure how well AI agents do research — scoring 
 | --- | ---: | --- | --- | --- | --- |
 | [ResearchClawBench](https://github.com/InternScience/ResearchClawBench) | 21 | Benchmark with 40 real-science tasks across 10 domains that evaluates whether AI agents can produce publication-quality research | ![Web][i-web] ![CLI][i-cli] | ![Any][any] | last 1 week |
 | [paperreview.ai](https://paperreview.ai) | — | Agentic paper reviewer by Stanford that scores research papers on novelty, rigor, and clarity | ![Web][i-web] | — | last 1 week |
+| [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) | 2 | Checks whether a model can write good orchestration prompts for sub-agents: role-fragment assignment plus prompt writing, 110 scenarios, 10 topologies | ![CLI][i-cli] | ![Any][any] | last 1 month |
 
 ---
 
