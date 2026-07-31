@@ -5,13 +5,13 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![GitHub Stars](https://img.shields.io/github/stars/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github&color=gold)](https://github.com/MinhaoXiong/awesome-automated-research/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github)](https://github.com/MinhaoXiong/awesome-automated-research/issues)
-[![Projects](https://img.shields.io/badge/Projects-43-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
-[![Snapshot](https://img.shields.io/badge/Snapshot-2026--04--03-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Projects](https://img.shields.io/badge/Projects-44-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Snapshot](https://img.shields.io/badge/Snapshot-2026--07--31-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
 **一份关于自主科研系统与工具的精选清单。**
 
-*43 个项目 · 8 个类别 · 端到端 AI Scientist · 实验循环 · 科研副驾 · 技能包 · 论文工具 · 基准评测*
+*44 个项目 · 8 个类别 · 端到端 AI Scientist · 实验循环 · 科研副驾 · 技能包 · 论文工具 · 基准评测*
 
 [English](./README.md) | [中文](#)
 
@@ -31,7 +31,7 @@ AI 现在已经可以自主承担科研流程中的很多关键环节，从生�
 | 你从零开始写论文 | AI 可以生成带图表的接近 camera-ready 的 LaTeX 草稿 |
 | 你只能靠自己发现盲点 | AI 可以自我审阅、交叉核对并继续迭代 |
 
-> 截至 2026-04-03，当前共收录 **43 个项目**。
+> 截至 2026-07-31，当前共收录 **44 个项目**。
 
 ---
 
@@ -106,7 +106,7 @@ AI 现在已经可以自主承担科研流程中的很多关键环节，从生�
 | 科研副驾与交互式智能体 | 4 | EvoScientist, MagiClaw, ScienceClaw |
 | 科研工作台 | 3 | dr-claw, Research-Claw, DrClaw |
 | 技能与工作流包 | 8 | claude-scientific-skills, AI-Research-SKILLs, ARIS, uditgoenka/autoresearch |
-| 文献检索、引文与论文工具 | 6 | paper-search-mcp, PaperBanana, CitationClaw |
+| 文献检索、引文与论文工具 | 7 | paper-search-mcp, Academic Paper Search, PaperBanana, CitationClaw |
 | 垂直领域智能体 | 2 | MedgeClaw, BioClaw |
 | 基准与评测 | 2 | ResearchClawBench, paperreview.ai |
 
@@ -223,6 +223,7 @@ AI 现在已经可以自主承担科研流程中的很多关键环节，从生�
 | --- | ---: | --- | --- | --- | --- |
 | [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | 5.3K | 将论文内容转换成可发表级别的学术插图和示意图 | ![CLI][i-cli] ![Web][i-web] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] | 1 个月内 |
 | [paper-search-mcp](https://github.com/openags/paper-search-mcp) | 857 | 通过 MCP 一次搜索 20+ 学术数据库，如 arXiv、PubMed、Semantic Scholar 等 | ![MCP][i-mcp] | ![Agnostic][ag] | 1 周内 |
+| [Academic Paper Search](https://github.com/wp-a/nature-academic-search) | 51 | 面向 Codex 和 Claude Code，跨 5 个开放学术来源检索、去重、核验论文并导出参考文献 | ![CLI][i-cli] ![Skill][i-skill] ![MCP][i-mcp] | ![Claude][cl] ![Codex][cdx] | 1 周内 |
 | [meta-knowledge-graph](https://github.com/Seaual/meta-knowledge-graph) | 7 | 用 LLM 从 PDF 论文抽取层级概念，并生成可交互探索的学术知识图谱 | ![Web][i-web] ![CLI][i-cli] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] ![Qwen][qw] | 1 周内 |
 | [CitationClaw](https://github.com/VisionXLab/CitationClaw) | 200 | 分析谁在引用你的论文、为什么引用，并生成可视化影响力面板 | ![Web][i-web] ![CLI][i-cli] | ![OpenAI-compatible][oaic] | 1 周内 |
 | [ClawPhD](https://github.com/ZhihaoAIRobotic/ClawPhD) | 136 | 将论文转换成海报、图示、网站等更易传播的外部呈现形式 | ![CLI][i-cli] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] ![DeepSeek][ds] | 1 周内 |

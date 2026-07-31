@@ -5,13 +5,13 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![GitHub Stars](https://img.shields.io/github/stars/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github&color=gold)](https://github.com/MinhaoXiong/awesome-automated-research/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/MinhaoXiong/awesome-automated-research?style=for-the-badge&logo=github)](https://github.com/MinhaoXiong/awesome-automated-research/issues)
-[![Projects](https://img.shields.io/badge/Projects-43-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
-[![Snapshot](https://img.shields.io/badge/Snapshot-2026--04--03-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Projects](https://img.shields.io/badge/Projects-44-blue?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
+[![Snapshot](https://img.shields.io/badge/Snapshot-2026--07--31-green?style=for-the-badge)](https://github.com/MinhaoXiong/awesome-automated-research)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
 **A curated list of autonomous research systems and tools.**
 
-*43 projects · 8 categories · End-to-end AI scientists · Experiment loops · Research co-pilots · Skill packs · Paper tools · Benchmarks*
+*44 projects · 8 categories · End-to-end AI scientists · Experiment loops · Research co-pilots · Skill packs · Paper tools · Benchmarks*
 
 [English](#) | [中文](./README.zh.md)
 
@@ -30,7 +30,7 @@ AI can now carry out research autonomously — from generating ideas and running
 | You write papers from scratch | AI generates camera-ready LaTeX drafts with figures |
 | You review your own blind spots | AI self-reviews, cross-checks, and iterates |
 
-> **43 projects** tracked as of 2026-04-03.
+> **44 projects** tracked as of 2026-07-31.
 
 ---
 
@@ -101,7 +101,7 @@ AI can now carry out research autonomously — from generating ideas and running
 | Research Co-pilots & Interactive Agents | 4 | EvoScientist, MagiClaw, ScienceClaw |
 | Research Workspaces | 3 | dr-claw, Research-Claw, DrClaw |
 | Skill & Workflow Packs | 8 | claude-scientific-skills, AI-Research-SKILLs, ARIS, uditgoenka/autoresearch |
-| Literature Search, Citation & Paper Tools | 6 | paper-search-mcp, PaperBanana, CitationClaw |
+| Literature Search, Citation & Paper Tools | 7 | paper-search-mcp, Academic Paper Search, PaperBanana, CitationClaw |
 | Vertical Domain Agents | 2 | MedgeClaw, BioClaw |
 | Benchmarks & Evaluation | 2 | ResearchClawBench, paperreview.ai |
 
@@ -210,6 +210,7 @@ Paper retrieval, citation analysis, academic visualization, and publishing layer
 | --- | ---: | --- | --- | --- | --- |
 | [PaperBanana](https://github.com/dwzhu-pku/PaperBanana) | 5.3K | Turns paper content into publication-quality academic illustrations and diagrams | ![CLI][i-cli] ![Web][i-web] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] | last 1 month |
 | [paper-search-mcp](https://github.com/openags/paper-search-mcp) | 857 | Searches 20+ academic databases (arXiv, PubMed, Semantic Scholar, etc.) at once via MCP | ![MCP][i-mcp] | ![Agnostic][ag] | last 1 week |
+| [Academic Paper Search](https://github.com/wp-a/nature-academic-search) | 51 | Searches, deduplicates, verifies, and exports papers across five open scholarly sources for Codex and Claude Code | ![CLI][i-cli] ![Skill][i-skill] ![MCP][i-mcp] | ![Claude][cl] ![Codex][cdx] | last 1 week |
 | [meta-knowledge-graph](https://github.com/Seaual/meta-knowledge-graph) | 7 | LLM-powered academic knowledge graph engine that extracts hierarchical concepts from PDFs and turns them into interactive discovery maps | ![Web][i-web] ![CLI][i-cli] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] ![Qwen][qw] | last 1 week |
 | [CitationClaw](https://github.com/VisionXLab/CitationClaw) | 200 | Analyzes who cites your papers, why, and generates visual impact dashboards | ![Web][i-web] ![CLI][i-cli] | ![OpenAI-compatible][oaic] | last 1 week |
 | [ClawPhD](https://github.com/ZhihaoAIRobotic/ClawPhD) | 136 | Converts papers into posters, diagrams, websites, and other shareable assets | ![CLI][i-cli] | ![Claude][cl] ![GPT][gpt] ![Gemini][gem] ![DeepSeek][ds] | last 1 week |
